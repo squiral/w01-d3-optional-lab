@@ -11,6 +11,13 @@ def sum_array(numbers)
   return result
 end
 
-def find_item
-  
+def find_item(array, item)
+  for array_item in array
+    if array_item == item
+      return true
+    end
+  end
+
+  return false
+
 end
